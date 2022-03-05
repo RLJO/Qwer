@@ -1,29 +1,24 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
 {
-    'name': 'Jordanian - Accounting',
-    'author': 'Tech Receptives',
-    'category': 'Accounting/Localizations/Account Charts',
+    'name': 'RL - Jordan Chart of Accounting',
+    'version': '12.0.1',
+    'category': 'Localization',
     'description': """
-United Arab Emirates accounting chart and localization.
-=======================================================
+This is the base module to manage the accounting chart for Jordan in Odoo.
+==============================================================================
     """,
-    'depends': ['base', 'account'],
+    'website': 'www.royalline.gold',
+    'author': 'Royal Line for Shipping Services',
+    'depends': ['account','l10n_multilang',],
     'data': [
-        'data/l10n_jo_data.xml',
-        'data/l10n_jo_chart_data.xml',
+        'data/account.group.csv',
+        'data/account_chart_template_data.xml',
         'data/account.account.template.csv',
-        'data/account_tax_group_data.xml',
-        'data/l10n_jo_chart_post_data.xml',
-        'data/account_tax_report_data.xml',
+        'data/account_jo_coa_data.xml',
+        'data/account_data.xml',
         'data/account_tax_template_data.xml',
         'data/fiscal_templates_data.xml',
-        'data/account_chart_template_data.xml',
-        'views/report_invoice_templates.xml',
-        'views/account_move.xml',
+#         'data/res.lang.csv',
+#         'data/account_chart_template_data.yml',
     ],
-    'demo': [
-        'demo/demo_company.xml',
-    ],
-    'license': 'LGPL-3',
 }
