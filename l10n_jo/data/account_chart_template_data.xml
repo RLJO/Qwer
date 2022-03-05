@@ -11,8 +11,6 @@
             <field name="name">Jordan COA</field>
             <field name="bank_account_code_prefix">1100200</field>
             <field name="cash_account_code_prefix">1100100</field>
-            <field name="transfer_account_code_prefix">1100300</field>
-            <field name="transfer_account_id" ref="trans"/>
             <field name="currency_id" ref="base.JOD"/>
             <field name="code_digits">8</field>
             <field name="spoken_languages" eval="'en_US;ar_SY'"/>
