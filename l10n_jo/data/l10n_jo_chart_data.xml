@@ -8,14 +8,6 @@
          <field name="cash_account_code_prefix">11001000</field>
          <field name="currency_id" ref="base.JOD" />
          <field name="country_id" ref="base.jo"/>
-         <field name="property_account_receivable_id" ref="account_account_template_6"/>
-         <field name="property_account_payable_id" ref="account_account_template_30"/>
-         <field name="property_account_expense_categ_id" ref="account_account_template_51"/>
-         <field name="property_account_income_categ_id" ref="account_account_template_50"/>
-	     <field name="property_account_expense_id" ref="account_account_template_51"/>
-	     <field name="property_account_income_id" ref="account_account_template_50"/>
-         <field name="expense_currency_exchange_account_id" ref="account_account_template_76"/>
-         <field name="income_currency_exchange_account_id" ref="account_account_template_76"/>
          <field name="complete_tax_set" eval="True"/>
      </record>
 </odoo>
