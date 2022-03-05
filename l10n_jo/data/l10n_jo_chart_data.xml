@@ -5,8 +5,8 @@
      <record id="jor_chart_template_standard" model="account.chart.template">
          <field name="name">Jordan Chart of Accounts - Standard</field>
          <field name="code_digits">8</field>
-         <field name="bank_account_code_prefix">1100200</field>
-         <field name="cash_account_code_prefix">1100100</field>
+         <field name="bank_account_code_prefix">11002000</field>
+         <field name="cash_account_code_prefix">11001000</field>
          <field name="currency_id" ref="base.JOD" />
          <field name="country_id" ref="base.jo"/>
 	     <field name="transfer_account_id" ref="trans"/>
