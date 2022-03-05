@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-     <record id="jor_chart_template_standard" model="account.chart.template">
+     <record id="jor_chart_template" model="account.chart.template">
          <field name="name">Jordan Chart of Accounts - Standard</field>
          <field name="code_digits">8</field>
          <field name="bank_account_code_prefix">11002000</field>
