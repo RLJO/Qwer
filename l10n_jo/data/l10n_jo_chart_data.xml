@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <menuitem id="account_reports_jor_statements_menu" name="Jordan" parent="account.menu_finance_reports" sequence="0" groups="account.group_account_readonly"/>
 
      <record id="jor_chart_template_standard" model="account.chart.template">
          <field name="name">Jordan Chart of Accounts - Standard</field>
