@@ -5,7 +5,6 @@
             <field name="code">18</field>
             <field name="user_type_id" ref="account.data_account_type_current_assets"/>
             <field name="reconcile" eval="True"/>
-            <field name="group_id" ref="l10n_jo.account_group_2"/>
         </record>
         <!-- Chart template -->
         <record id="l10njo_chart_template" model="account.chart.template">
