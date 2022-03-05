@@ -8,7 +8,6 @@
          <field name="cash_account_code_prefix">11001000</field>
          <field name="currency_id" ref="base.JOD" />
          <field name="country_id" ref="base.jo"/>
-	    <!--  <field name="transfer_account_id" ref="trans"/>  ---->
          <field name="property_account_receivable_id" ref="account_account_template_6"/>
          <field name="property_account_payable_id" ref="account_account_template_30"/>
          <field name="property_account_expense_categ_id" ref="account_account_template_51"/>
