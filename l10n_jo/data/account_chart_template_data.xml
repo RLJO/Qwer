@@ -7,14 +7,7 @@
             <field name="reconcile" eval="True"/>
         </record>
         <!-- Chart template -->
-        <record id="l10njo_chart_template" model="account.chart.template">
-            <field name="name">Jordan COA</field>
-            <field name="bank_account_code_prefix">1100200</field>
-            <field name="cash_account_code_prefix">1100100</field>
-            <field name="currency_id" ref="base.JOD"/>
-            <field name="code_digits">8</field>
-            <field name="spoken_languages" eval="'en_US;ar_SY'"/>
-        </record>
+ 
         <record id="trans" model="account.account.template">
             <field name="chart_template_id" ref="l10njo_chart_template"/>
         </record>
