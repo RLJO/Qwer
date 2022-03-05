@@ -12,7 +12,6 @@ from odoo.tools import float_is_zero
 class AccountAssetsAssets(models.Model):
     _inherit = 'account.asset.asset'
     
-    @api.multi
     def compute_depreciation_board(self):
         self.ensure_one()
 
